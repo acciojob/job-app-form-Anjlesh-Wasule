@@ -1,71 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Application Form</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-    <h1>Job Application</h1>
-
-    <!-- Form must use method="POST" as required -->
-    <form method="POST">
-        <!-- Name (Text Input, Required) -->
-        <label for="name">Full Name*:</label><br>
-        <input type="text" id="name" name="name" required><br>
-        <br>
-
-        <!-- Email (Email Input, Required) -->
-        <label for="email">Email Address*:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <br>
-
-        <!-- Gender (Radio Buttons, Required) - Using <strong> for a simple title and <br> for separation. -->
-        <strong>Gender*:</strong><br>
-        <input type="radio" id="gender-male" name="gender" value="male" required>
-        <label for="gender-male">Male</label>
-        
-        <input type="radio" id="gender-female" name="gender" value="female">
-        <label for="gender-female">Female</label>
-        
-        <input type="radio" id="gender-other" name="gender" value="other">
-        <label for="gender-other">Other</label><br>
-        <br>
-
-        <!-- Laptop Brands (Dropdown, Required) -->
-        <label for="laptop">Preferred Laptop Brand*:</label><br>
-        <select id="laptop" name="laptop_brand" required>
-            <option value="" disabled selected>-- Select a Brand --</option>
-            <option value="Apple">Apple</option>
-            <option value="Asus">Asus</option>
-            <option value="HP">HP</option>
-        </select><br>
-        <br>
-
-        <!-- Age (Number Input, Required) -->
-        <label for="age">Age*:</label><br>
-        <input type="number" id="age" name="age" min="18" required><br>
-        <br>
-
-        <!-- Date of Birth (Date Input, Required) -->
-        <label for="dob">Date of Birth*:</label><br>
-        <input type="date" id="dob" name="dob" required><br>
-        <br>
-
-        <!-- Password (Password Input, Required) -->
-        <label for="password">Choose Password*:</label><br>
-        <input type="password" id="password" name="password" required><br>
-        <br>
-
-        <!-- Portfolio URL (URL Input, Not Required) -->
-        <label for="portfolio">Portfolio URL:</label><br>
-        <input type="url" id="portfolio" name="portfolio"><br>
-        <br>
-
-        <!-- Submit Button -->
-        <button type="submit">Submit Application</button>
-    </form>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
 
 </body>
+
 </html>
